@@ -1,0 +1,13 @@
+body{margin:0; }
+        .wrap{display: flex; background:#e8f0ff; width: 100%; height:100vh;    justify-content: center;
+            align-items: center; flex-wrap: wrap;}
+        .tit{width: 100%; text-align: center;}
+
+        .test{margin-top:40px; display: flex;}
+        .sub1{border:1px solid #ccc; border-radius:10px; background:#eee; width:200px; height:200px; margin-right:10px;}
+        .sub1:hover{border:1px solid #1666fc; border-radius:10px; background:#c1d7ff; font-weight: bold;}
+        .sub1:last-child{margin:0;}
+        .sub1 p{text-align: center;height: 200px;margin: 0;}
+        .sub1 a{color:#333; text-decoration: none; display: block;  display: flex;
+    align-items: center;justify-content: center;width:100%; height:100%; cursor: pointer;
+font-size:18px; line-height: 30px;}
