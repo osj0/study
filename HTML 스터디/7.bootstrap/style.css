@@ -1,0 +1,26 @@
+.btn-outline-success{color:#d2691e; border-color:#d2691e}
+.btn-outline-success:hover{background:#d2691e; color:#fff;}
+
+footer{background-color: black; color:white;}
+
+.first-line{border-bottom:1px solid #392d23;}
+
+.second-line{}
+.second-line a{color:#fff; text-decoration: none;}
+.flag { color: white;}
+  .mobile-footer {
+    border-top: 1px solid #392d23;
+    color: white;text-align: center;
+    font-size: 1.125rem;font-weight: 300;padding-top: 2rem;
+    padding-bottom: 2rem;align-items: center;display: none;}
+
+@media screen and (max-width:48rem){
+    .second-line {padding: 0 2rem;}   
+    .flag {display: none;}
+    
+    .first-line {text-align: center;}
+    
+    .mobile-footer {display: block;}
+    .col {padding-bottom: 1rem;}
+    .flag-img {margin: 0 0.5rem;}
+}
